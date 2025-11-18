@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Author" value="Felipe Ribas">
+    <title>Template Bootstrap Offline</title>
+
+    <!-- Link do CSS do Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+        .navbar {
+            background-color: #007396;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body class="" id="home">
+
+    <nav class="navbar sticky-top navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#">Portfólio</a>
+            <h1 class="navbar-text"></h1>
+            <div class="navbar-brand text-light align-content-end" style="display: flex; gap: 10px;">
+                <a href="#home" class="text-light" style="text-decoration: none;">Home</a> -
+                <a href="#sobre" class="text-light" style="text-decoration: none;">Sobre</a> -
+                <a href="#projetos" class="text-light" style="text-decoration: none;">Projetos</a> -
+                <a href="#habilidades" class="text-light" style="text-decoration: none;">Habilidades</a> -
+                <a href="#contato" class="text-light" style="text-decoration: none;">Contato</a>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/Banner.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="sobre">
+        <br>
+        <br>
+        <br>
+        <h1>Sobre mim</h1>
+        <div class="row">
+            <img src="images/Foto.jpg" class="col-2 w-10 rounded-circle" alt="">
+            <p class="col-10">Me chamo Felipe Santos Ribas, sou estudante de desenvolvimento de sistemas no SENAI de
+                Mauá,
+                durante esse período aprendi diversas tecnologias como html, css, javascript, php, mysql e git, porém
+                meu foco
+                está em tecnologias que eu aprendo por conta própria como java e springboot, pois tenho como objetivo me
+                tornar
+                um programador back-end.
+                <br>
+                Meu interesse pela área de tecnologia da informação vem desde cedo, quando decidi aprender a criar
+                jogos como hobby usando um programa chamado game maker studio 2, desde então percebi que eu sempre tive
+                aptidão com lógica de programação, e percebi que essa área era a que eu queria ter como profissão.
+            </p>
+        </div>
+        <br>
+        <br id="projetos">
+    </div>
+
+    <div style="background-color: #ED8B00;">
+        <div class="container">
+            <hr>
+            <br>
+            <h1 class="text-light">Meus projetos</h1>
+            <p class="text-light text-center">Clique em um projeto para ser destinado à sua página do GitHub</p>
+            <br>
+
+            <div class="align-content-start row text-center">
+                <div class="card col-4 p-2 m-3" style="width: 25rem; height: 30rem;">
+                    <img src="images/Projeto 1.png" style="height: 200px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Calculadora em JavaFX</h5>
+                        <p class="card-text">Pequeno projeto em java criardo como o intuito para aprendizado e prática
+                            da biblioteca JavaFX</p>
+                        <a href="https://github.com/FelipeSantosRibas/CalculadoraFX" target="_blank"
+                            class="btn btn-primary">Visitar Projeto</a>
+                    </div>
+                </div>
+                <div class="card col-4 p-2 m-3" style="width: 25rem;">
+                    <img src="images/Projeto 2.png" style="height: 200px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product Managar</h5>
+                        <p class="card-text">Um dos meus primeiros projetos em java, um sistema de gerenciamento de
+                            inventário que permite
+                            visualizar, adicionar e modificar produtos.</p>
+                        <a href="https://github.com/FelipeSantosRibas/ProductManager" class="btn btn-primary">Visitar
+                            Projeto</a>
+                    </div>
+                </div>
+                <div class="card col-4 p-2 m-3" style="width: 25rem;">
+                    <img src="images/Projeto 1.png" style="height: 200px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Espaço para projetos futuros</h5>
+                        <p class="card-text">Aqui estará o meu primeiro projeto em springboot quando ele estiver pronto.
+                        </p>
+                        <a href="#" class="btn btn-primary">Visitar Projeto</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr>
+        </div>
+    </div>
+    <div class="container" id="habilidades">
+        <br>
+        <h1>Habilidades e Formações</h1>
+        <br>
+        <div>
+            <p class=""><strong>Inglês:</strong> Fluente, formado na Wizard Mauá 2025.</p>
+            <p class=""><strong>Java:</strong> Certificado da Oracle pelo SENAI Mauá em 2024.</p>
+            <p class=""><strong>SpringBoot:</strong> Certificado pelo Bootcamp da Claro 2025.</p>
+
+            <p class=""><strong>Técnico em desenvolvimento de Sistemas:</strong> Certificado pelo SENAI Mauá em
+                2024-2025.</p>
+            <p class=""><strong>Engenharia de Software:</strong> Cursando pela FIAP 2026-2030.</p>
+        </div>
+        <br>
+        <hr>
+        <br>
+
+        <div class="container" id="contato">
+            <h1>Contato</h1>
+            <br>
+
+            <div class="d-flex justify-content-center gap-3">
+                <a href="https://github.com/FelipeSantosRibas" target="_blank">
+                    <img src="images/Github.png" style="width: 100px;">
+                </a>
+                <a href="mailto:felipesantosribas2007@gmail.com">
+                    <img src="images/Gmail.png" style="width: 100px; height: 100px;">
+                </a>
+                <a href="https://www.linkedin.com/in/felipe-santos-ribas-67ba91339/" target="_blank">
+                    <img src="images/Linkedin.png" style="width: 100px;">
+                </a>
+            </div>
+
+            <br><br>
+        </div>
+
+
+    </div>
+
+</body>
+<script src="js/bootstrap.min.js"></script>
+
+</html>
